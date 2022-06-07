@@ -1,0 +1,32 @@
+{
+  "name": "teamfinder",
+  "version": "1.0.0",
+  "description": "Еeam finder - a project designed to find a team to work on a joint project. In addition to searching for a team, the project also has a subsystem for booking a place for holding joint events that can be held at a given time and a given place. Theme for events - arbitrary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainthread23/TeamFinder.git"
+  },
+  "keywords": [
+    "team",
+    "projects"
+  ],
+  "author": "Vladislav Voznesenskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mainthread23/TeamFinder/issues"
+  },
+  "homepage": "https://github.com/mainthread23/TeamFinder#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
